@@ -17,7 +17,7 @@ const scontoMinori = 0.20;
 const scontoOver = 0.40;
 let prezzoBiglietto;
 
-if(eta <= 18){
+if(eta <= 17){
   prezzoBiglietto = kmDaFare * (prezzoKm / (1 + scontoMinori));
 }
 else if(eta >= 65){
